@@ -1,5 +1,6 @@
 import { fromBuildIdentifier } from './forge-config';
 import { hasYarn, yarnOrNpmSpawn } from './yarn-or-npm';
+import rebuildHook from './rebuild';
 
 export default class ForgeUtils {
   /**
@@ -14,6 +15,8 @@ export default class ForgeUtils {
   }
 
   hasYarn = hasYarn;
+
+  rebuildHook = rebuildHook;
 
   yarnOrNpmSpawn = yarnOrNpmSpawn;
 }
