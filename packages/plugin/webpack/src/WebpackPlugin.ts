@@ -160,7 +160,7 @@ export default class WebpackPlugin extends PluginBase<WebpackPluginConfig> {
           await fs.remove(this.baseDir);
           await utils.rebuildHook(
             this.projectDir,
-            utils.getElectronVersion(this.projectDir, await fs.readJson(path.join(this.projectDir, 'package.json'))),
+            await utils.getElectronVersion(this.projectDir, await fs.readJson(path.join(this.projectDir, 'package.json'))),
             process.platform,
             process.arch,
             config.electronRebuildConfig,
