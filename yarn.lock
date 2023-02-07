@@ -45,13 +45,21 @@
   dependencies:
     tslib "^1.11.1"
 
-"@aws-sdk/abort-controller@3.29.0", "@aws-sdk/abort-controller@^3.29.0":
+"@aws-sdk/abort-controller@3.29.0":
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.29.0.tgz#8c031bc78ca08e93c8d0af6e55bc5df08f527ba3"
   integrity sha512-MLeexxMs06WkPKuA/ltOCA3TV+vN1WQjEhojNtylQzz/AJDDq4z/7nmIf4lJKM7h1PDuD4XHLPfbxNuv75mu6A==
   dependencies:
     "@aws-sdk/types" "3.29.0"
     tslib "^2.3.0"
+
+"@aws-sdk/abort-controller@^3.266.0":
+  version "3.266.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.266.0.tgz#2065f78a2580b6c6971c373fc5bf59093cb5a93d"
+  integrity sha512-H/ySWWSwJN5coP9c5Ge2pOJYs1YPG5AVemGeKRx3kw5Z7Btd9jSFyYV0qGPd78HG3FopjZqSb4l2puPPp8UdpA==
+  dependencies:
+    "@aws-sdk/types" "3.266.0"
+    tslib "^2.3.1"
 
 "@aws-sdk/chunked-blob-reader-native@3.29.0":
   version "3.29.0"
@@ -641,7 +649,14 @@
     "@aws-sdk/types" "3.29.0"
     tslib "^2.3.0"
 
-"@aws-sdk/types@3.29.0", "@aws-sdk/types@^3.1.0", "@aws-sdk/types@^3.25.0":
+"@aws-sdk/types@3.266.0", "@aws-sdk/types@^3.1.0", "@aws-sdk/types@^3.25.0":
+  version "3.266.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.266.0.tgz#05f00bf4367587f3996362c9548cdc6d3b74bf9a"
+  integrity sha512-DGOnzUKM9gE1xRyzNKe9S0hOMHT1C1CEuTJ8MgPQjXj5UgndAIItU+9kkfeZTLSbp3rDHeNZ8EP9/oS9kC+q8Q==
+  dependencies:
+    tslib "^2.3.1"
+
+"@aws-sdk/types@3.29.0":
   version "3.29.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.29.0.tgz#792050dfd4ff97fca448160ca9f652d5f33514b0"
   integrity sha512-8ilWQU5ZTdiRfblmmjl38+6JZKKM8EqA5Sbn8djgDLShCLeVJ2TsL2guzNi+WHcL7BHdv1pI/NNmTcgRUo6yOw==
@@ -10210,10 +10225,10 @@ tslib@^1.11.1, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.3, tslib@^2.2.0, tslib@^2.3.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
+tslib@^2.0.3, tslib@^2.2.0, tslib@^2.3.0, tslib@^2.3.1:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.0.tgz#42bfed86f5787aeb41d031866c8f402429e0fddf"
+  integrity sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==
 
 tslib@~2.1.0:
   version "2.1.0"
